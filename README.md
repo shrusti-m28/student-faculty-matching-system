@@ -1,17 +1,16 @@
 # 🎓 Student Faculty Matching System
 
-## 📌 Project Overview
-The Student Faculty Matching System is a web-based platform that connects students and faculty members based on skills, interests, and project requirements. It uses a match score algorithm to recommend suitable mentors and students for academic projects.
+## 📌 About the Project
+The Student Faculty Matching System is a web-based application that connects students and faculty based on their skills, interests, and login role. It provides separate login systems for students and faculty and helps in managing academic interaction in a simple way.
 
 ---
 
 ## 🚀 Features
-- Student & Faculty registration system
-- Login authentication
-- Skill-based matching algorithm
-- Match score calculation
-- Recommendation system for better project allocation
-- Simple and interactive web interface
+- Student Registration and Login
+- Faculty Registration and Login
+- Role-based access system
+- Simple authentication system
+- Clean and easy user interface
 
 ---
 
@@ -23,8 +22,54 @@ The Student Faculty Matching System is a web-based platform that connects studen
 
 ---
 
+## 🖥️ Project Output Screenshots
+
+### 🔹 Login Page
+![Login Page](screenshots/login.png)
+
+### 🔹 Register Page
+![Register Page](screenshots/register.png)
+
+### 🔹 Student Login Page
+![Student Login](screenshots/student_login.png)
+
+### 🔹 Faculty Login Page
+![Faculty Login](screenshots/faculty_login.png)
+
+---
+
+## 📂 Project Structure
+StudyConnect/
+│
+├── app.py
+├── dashboard.html
+├── index.html
+├── README.md
+└── screenshots/
+├── login.png
+├── register.png
+├── student_login.png
+└── faculty_login.png
+
+
+---
+
 ## ⚙️ How to Run the Project
 
-### 1. Install dependencies
-```bash
+### Install requirements
 pip install flask flask_sqlalchemy flask_cors
+
+### Run backend
+python app.py
+
+### Open in browser
+http://127.0.0.1:5000/
+
+## 👩‍💻 Author
+Shrusti M
+
+## 🎯 Conclusion
+This project helps in simplifying student and faculty interaction by providing a structured login system and easy management of users.
+
+
+
