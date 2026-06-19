@@ -1,0 +1,3 @@
+backend/instance/
+*.db
+__pycache__/
