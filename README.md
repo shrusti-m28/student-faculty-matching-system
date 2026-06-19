@@ -22,19 +22,19 @@ The Student Faculty Matching System is a web-based application that connects stu
 
 ---
 
-## 🖥️ Project Output Screenshots
+## 🖥️ Project Output screenshots
 
 ### 🔹 Login Page
-![Login Page](screenshots/login.png)
+![Login Page](screenshots/login.png.png)
 
 ### 🔹 Register Page
-![Register Page](screenshots/register.png)
+![Register Page](screenshots/register.png.png)
 
 ### 🔹 Student Login Page
-![Student Login](screenshots/student_login.png)
+![Student Login](screenshots/student_login.png.png)
 
 ### 🔹 Faculty Login Page
-![Faculty Login](screenshots/faculty_login.png)
+![Faculty Login](screenshots/faculty_login.png.png)
 
 ---
 
