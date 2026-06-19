@@ -1,39 +1,44 @@
 # 🎓 Student Faculty Matching System
 
-## 📌 About
-A web-based system that matches students and faculty based on skills and interests using a match score algorithm.
+## 📌 About the Project
+The Student Faculty Matching System is a web-based application that connects students and faculty based on skills and interests. It helps in matching users with suitable mentors and projects using a simple matching system.
 
 ---
 
 ## 🚀 Features
-- Student & Faculty login/register
-- Skill-based matching
-- Match score calculation
-- Simple dashboard
+- Separate Student and Faculty login
+- User registration system
+- Secure login functionality
+- Role-based access (Student / Faculty)
+- Simple dashboard interface
 
 ---
 
 ## 🛠 Tech Stack
 - HTML, CSS, JavaScript
 - Python (Flask)
-- SQLite
+- SQLite Database
 
 ---
 
-## 🖥️ Output Screenshots
+## 🖥️ Project Output Screenshots
 
-### Login Page
-![Login](screenshots/login.png)
+### 🔹 Login Page
+![Login Page](screenshots/login.png)
 
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
+### 🔹 Register Page
+![Register Page](screenshots/register.png)
 
-### Match Results
-![Results](screenshots/results.png)
+### 🔹 Student Login Page
+![Student Login](screenshots/student_login.png)
+
+### 🔹 Faculty Login Page
+![Faculty Login](screenshots/faculty_login.png)
 
 ---
 
-## ⚙️ Run Project
+## ⚙️ How to Run Project
+
+### 1. Install requirements
 ```bash
 pip install flask flask_sqlalchemy flask_cors
-python app.py
